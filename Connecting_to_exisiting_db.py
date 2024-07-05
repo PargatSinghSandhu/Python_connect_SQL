@@ -6,7 +6,7 @@ try:
         host="localhost",
         user=input("Enter username: "),
         password=getpass("Enter password: "),
-        database="online_movie_rating", //here you are connecting to exisiting db
+        database="online_movie_rating", #here you are connecting to exisiting db
     ) as connection:
         with connection.cursor() as cursor:
             print(connection)
